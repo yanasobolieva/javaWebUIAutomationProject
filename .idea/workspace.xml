@@ -18,20 +18,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yanasobolieva"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yanasobolieva&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yanasobolieva/javaWebUIAutomationProject.git",
-    "accountId": "8aab9803-4141-478a-81b5-aaaae3c4ab76"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yanasobolieva/javaWebUIAutomationProject.git&quot;,
+    &quot;accountId&quot;: &quot;8aab9803-4141-478a-81b5-aaaae3c4ab76&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -56,7 +61,6 @@
     "TestNG.SubmitOrderTest.executor": "Run",
     "TestNG.SubmitOrderTest.orderHistoryTest.executor": "Debug",
     "TestNG.SubmitOrderTest.submitOrder.executor": "Run",
-    "git-widget-placeholder": "couseBranch",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -71,6 +75,15 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.SubmitOrderTest.submitOrder">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <configuration name="C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuits/purchaseTests.xml" />
@@ -149,7 +162,6 @@
         <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
         <item itemvalue="TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml" />
         <item itemvalue="TestNG.SubmitOrderTest" />
-        <item itemvalue="TestNG.SubmitOrderTest.orderHistoryTest" />
         <item itemvalue="TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml" />
       </list>
     </recent_temporary>
