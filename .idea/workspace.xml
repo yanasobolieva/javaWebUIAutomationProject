@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef67b949-8b0f-447d-9c1e-d5fce56f3747" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yanasobolieva"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yanasobolieva/javaWebUIAutomationProject.git",
+    "accountId": "8aab9803-4141-478a-81b5-aaaae3c4ab76"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2rcHdDizQpSc4vgV8kTIXtOgWnz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.StandAloneTest.executor": "Run",
+    "Application.SubmitOrderTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/errorValidationTests.xml.executor": "Run",
+    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml.executor": "Run",
+    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml.executor": "Run",
+    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testng.xml.executor": "Run",
+    "TestNG.ErrorValidatrion.executor": "Run",
+    "TestNG.ErrorValidatrion.incorrectCred.executor": "Run",
+    "TestNG.LoginErrorValidationTest.executor": "Run",
+    "TestNG.SubmitOrderTest.executor": "Run",
+    "TestNG.SubmitOrderTest.orderHistoryTest.executor": "Debug",
+    "TestNG.SubmitOrderTest.submitOrder.executor": "Run",
+    "git-widget-placeholder": "couseBranch",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yana.muntianova\IdeaProjects\SeleniumFrameworkDesign\testSuits" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yana.muntianova\IdeaProjects\SeleniumFrameworkDesign\testSuits" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SubmitOrderTest.submitOrder">
+    <configuration name="C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuits/purchaseTests.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuits/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitOrderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SubmitOrderTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitOrderTest.orderHistory" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SubmitOrderTest" />
+      <option name="METHOD_NAME" value="orderHistory" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubmitOrderTest.submitOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SubmitOrderTest" />
+      <option name="METHOD_NAME" value="submitOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
+        <item itemvalue="TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml" />
+        <item itemvalue="TestNG.SubmitOrderTest" />
+        <item itemvalue="TestNG.SubmitOrderTest.orderHistoryTest" />
+        <item itemvalue="TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef67b949-8b0f-447d-9c1e-d5fce56f3747" name="Changes" comment="" />
+      <created>1736851529841</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736851529841</updated>
+    </task>
+    <servers />
+  </component>
+</project>
