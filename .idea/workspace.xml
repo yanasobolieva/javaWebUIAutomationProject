@@ -61,6 +61,7 @@
     &quot;TestNG.SubmitOrderTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.SubmitOrderTest.orderHistoryTest.executor&quot;: &quot;Debug&quot;,
     &quot;TestNG.SubmitOrderTest.submitOrder.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
@@ -75,15 +76,6 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.SubmitOrderTest.submitOrder">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <configuration name="C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuits/purchaseTests.xml" />
