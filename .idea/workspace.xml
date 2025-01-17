@@ -46,26 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.StandAloneTest.executor": "Run",
-    "Application.SubmitOrderTest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/errorValidationTests.xml.executor": "Run",
-    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml.executor": "Run",
-    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml.executor": "Run",
-    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testng.xml.executor": "Run",
-    "TestNG.ErrorValidatrion.executor": "Run",
-    "TestNG.ErrorValidatrion.incorrectCred.executor": "Run",
-    "TestNG.LoginErrorValidationTest.executor": "Run",
-    "TestNG.SubmitOrderTest.executor": "Run",
-    "TestNG.SubmitOrderTest.orderHistoryTest.executor": "Debug",
-    "TestNG.SubmitOrderTest.submitOrder.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.StandAloneTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubmitOrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/errorValidationTests.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ErrorValidatrion.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ErrorValidatrion.incorrectCred.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.LoginErrorValidationTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SubmitOrderTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.SubmitOrderTest.orderHistoryTest.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.SubmitOrderTest.submitOrder.executor&quot;: &quot;Run&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yana.muntianova\IdeaProjects\SeleniumFrameworkDesign\testSuits" />
