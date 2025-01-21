@@ -1,25 +1,20 @@
 package pageobject;
 
-import abstractcomponents.AbstractComponent;
-import org.openqa.selenium.WebDriver;
+import base.BasePage;
+import driver.WebDriverHolder;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class ConfirmationPage extends AbstractComponent {
-
-    WebDriver driver;
-
-    String confirmationMessage = "Thankyou for the order.";
+public class ConfirmationPage extends BasePage {
+    private String confirmationMessage = "Thankyou for the order.";
 
     @FindBy(css = ".hero-primary")
-    WebElement actualMessage;
+    private WebElement actualMessage;
 
 
-    public ConfirmationPage(WebDriver driver){
-        super(driver);
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    public ConfirmationPage(){
+        super();
     }
 
     public String getConfirmationMessage() {

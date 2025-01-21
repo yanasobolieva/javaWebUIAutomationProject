@@ -1,40 +1,35 @@
 package pageobject;
 
-import abstractcomponents.AbstractComponent;
-import org.openqa.selenium.WebDriver;
+import base.BasePage;
+import driver.WebDriverHolder;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage extends AbstractComponent {
-
-    WebDriver driver;
-
+public class LandingPage extends BasePage {
     @FindBy(id = "userEmail")
-    WebElement emailField;
+    private WebElement emailField;
 
     @FindBy(id = "userPassword")
-    WebElement passwordField;
+    private WebElement passwordField;
 
     @FindBy(id = "login")
-    WebElement loginButton;
+    private WebElement loginButton;
 
     @FindBy(css = "[class*=flyInOut]")
-    WebElement errorToast;
+    private WebElement errorToast;
 
     @FindBy(css = ".forgot-password-link")
-    WebElement forgotPassword;
+    private WebElement forgotPassword;
 
     @FindBy(css = ".text-reset")
-    WebElement registerLink;
+    private WebElement registerLink;
 
     @FindBy(css = "a[routerlink='/auth/register']")
-    WebElement registerButton;
+    private WebElement registerButton;
 
-    public LandingPage(WebDriver driver){
-        super(driver);
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    public LandingPage(){
+        super();
     }
 
     public LandingPage formIsLoaded(){
@@ -51,7 +46,7 @@ public class LandingPage extends AbstractComponent {
         emailField.sendKeys(email);
         passwordField.sendKeys(password);
         loginButton.click();
-        return new ProductCatalogPage(driver);
+        return new ProductCatalogPage();
     }
 
     public String getErrorMessage(){
@@ -61,7 +56,7 @@ public class LandingPage extends AbstractComponent {
 
     public ForgotPasswordPage goToForgotPassword(){
         forgotPassword.click();
-        return new ForgotPasswordPage(driver);
+        return new ForgotPasswordPage();
     }
 
     public RegisterPage goToRegister(Boolean byButton){
@@ -70,6 +65,6 @@ public class LandingPage extends AbstractComponent {
         } else {
             registerLink.click();
         }
-        return new RegisterPage(driver);
+        return new RegisterPage();
     }
 }

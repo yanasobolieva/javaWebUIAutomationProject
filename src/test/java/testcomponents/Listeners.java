@@ -3,13 +3,20 @@ package testcomponents;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import driver.WebDriverHolder;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import resources.ExtentReporterNG;
+import utils.PropertiesReader;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.Date;
 
 public class Listeners extends BaseTest implements ITestListener {
 
@@ -32,20 +39,17 @@ public class Listeners extends BaseTest implements ITestListener {
     public void onTestFailure(ITestResult result) {
         extentTest.get().fail(result.getThrowable());
 
+        File screenshot = ((TakesScreenshot) WebDriverHolder.getInstance().getDriver()).getScreenshotAs(OutputType.FILE);
+        File file = new File(
+                System.getProperty("user.dir") + "\\" + PropertiesReader.getInstance().getProperty("screenshotFolder"),
+                result.getName() + "_" + new Date().getTime() + ".png"
+        );
         try {
-            driver = (WebDriver)result.getTestClass().getRealClass().getField("driver").get(result.getInstance());
-        } catch (IllegalAccessException | NoSuchFieldException e) {
-            throw new RuntimeException(e);
-        }
-
-        String filePath = null;
-        try {
-            filePath = getScreenshot(result.getMethod().getMethodName(), driver);
+            FileUtils.copyFile(screenshot, file);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
-        extentTest.get().addScreenCaptureFromPath(filePath, result.getMethod().getMethodName());
-
+        extentTest.get().addScreenCaptureFromPath(file.getPath(), result.getMethod().getMethodName());
     }
 
     @Override

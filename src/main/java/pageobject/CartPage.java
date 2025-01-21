@@ -1,27 +1,22 @@
 package pageobject;
 
-import abstractcomponents.AbstractComponent;
-import org.openqa.selenium.WebDriver;
+import base.BasePage;
+import driver.WebDriverHolder;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class CartPage extends AbstractComponent {
-
-    WebDriver driver;
-
+public class CartPage extends BasePage {
     @FindBy(css = ".totalRow button")
-    WebElement checkoutButton;
+    private WebElement checkoutButton;
 
     @FindBy(css = ".cartSection h3")
     private List<WebElement> productsInCart;
 
-    public CartPage(WebDriver driver){
-        super(driver);
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    public CartPage(){
+        super();
     }
 
     public Boolean verifyProductDisplayed(String productName) {
@@ -32,6 +27,6 @@ public class CartPage extends AbstractComponent {
 
     public CheckoutPage goToCheckout(){
          checkoutButton.click();
-        return new CheckoutPage(driver);
+        return new CheckoutPage();
         }
 }

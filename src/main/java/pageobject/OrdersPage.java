@@ -1,23 +1,19 @@
 package pageobject;
 
-import abstractcomponents.AbstractComponent;
-import org.openqa.selenium.WebDriver;
+import base.BasePage;
+import driver.WebDriverHolder;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class OrdersPage extends AbstractComponent {
-    WebDriver driver;
-
+public class OrdersPage extends BasePage {
     @FindBy(css = "tr td:nth-child(3)")
     private List<WebElement> productNames;
 
-    public OrdersPage(WebDriver driver){
-        super(driver);
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    public OrdersPage(){
+        super();
     }
 
     public Boolean verifyProductInOrderDisplay(String productName){

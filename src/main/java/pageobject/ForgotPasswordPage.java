@@ -1,15 +1,12 @@
 package pageobject;
 
-import abstractcomponents.AbstractComponent;
-import org.openqa.selenium.WebDriver;
+import base.BasePage;
+import driver.WebDriverHolder;
 import org.openqa.selenium.support.PageFactory;
 
-public class ForgotPasswordPage extends AbstractComponent {
-    WebDriver driver;
+public class ForgotPasswordPage extends BasePage {
 
-    public ForgotPasswordPage(WebDriver driver){
-        super(driver);
-        this.driver = driver;
-        PageFactory.initElements(driver, this);
+    public ForgotPasswordPage(){
+        super();
     }
 }
