@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-21T11:23:42 EET" name="All Test Suite" finished-at="2025-01-21T11:24:19 EET" duration-ms="36572">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="LoginErrorValidationTest.incorrectCred()[pri:0, instance:tests.LoginErrorValidationTest@20bd8be5]" name="incorrectCred" class="tests.LoginErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+      <group name="Purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" name="submitOrder" class="tests.SubmitOrderTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-01-21T11:23:42 EET" name="Login - error cases" finished-at="2025-01-21T11:23:51 EET" duration-ms="8910">
+      <class name="tests.LoginErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.LoginErrorValidationTest@20bd8be5]" started-at="2025-01-21T11:23:42 EET" name="launchApplication" finished-at="2025-01-21T11:23:50 EET" duration-ms="7413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="incorrectCred()[pri:0, instance:tests.LoginErrorValidationTest@20bd8be5]" started-at="2025-01-21T11:23:50 EET" name="incorrectCred" finished-at="2025-01-21T11:23:51 EET" duration-ms="1304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectCred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginErrorValidationTest@20bd8be5]" started-at="2025-01-21T11:23:51 EET" name="tearDown" finished-at="2025-01-21T11:23:51 EET" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginErrorValidationTest -->
+    </test> <!-- Login - error cases -->
+    <test started-at="2025-01-21T11:23:42 EET" name="E2E Test" finished-at="2025-01-21T11:24:19 EET" duration-ms="36572">
+      <class name="tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" started-at="2025-01-21T11:23:42 EET" name="launchApplication" finished-at="2025-01-21T11:23:49 EET" duration-ms="6688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" started-at="2025-01-21T11:23:49 EET" name="submitOrder" data-provider="getSubmitOrderData" finished-at="2025-01-21T11:23:53 EET" duration-ms="3836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=cg6G@bficYJi6U4, countryName=india, email=yibiv465523@chosenx.com, productName=QWERTY}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" started-at="2025-01-21T11:23:53 EET" name="tearDown" finished-at="2025-01-21T11:23:53 EET" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" started-at="2025-01-21T11:23:53 EET" name="launchApplication" finished-at="2025-01-21T11:24:00 EET" duration-ms="7315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" started-at="2025-01-21T11:24:00 EET" name="submitOrder" data-provider="getSubmitOrderData" finished-at="2025-01-21T11:24:11 EET" duration-ms="10578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=c$YH7awJs!P6H5k, countryName=ukraine, email=y2318188@chosenx.com, productName=BANARSI SAREE}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" started-at="2025-01-21T11:24:11 EET" name="tearDown" finished-at="2025-01-21T11:24:11 EET" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" started-at="2025-01-21T11:24:11 EET" name="launchApplication" finished-at="2025-01-21T11:24:17 EET" duration-ms="6347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistory(java.util.HashMap)[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" started-at="2025-01-21T11:24:17 EET" name="orderHistory" data-provider="getOrderHistoryData" finished-at="2025-01-21T11:24:18 EET" depends-on-methods="tests.SubmitOrderTest.submitOrder" duration-ms="987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=cg6G@bficYJi6U4, email=yibiv465523@chosenx.com, productName=QWERTY}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SubmitOrderTest@57bc27f5]" started-at="2025-01-21T11:24:18 EET" name="tearDown" finished-at="2025-01-21T11:24:19 EET" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SubmitOrderTest -->
+    </test> <!-- E2E Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
