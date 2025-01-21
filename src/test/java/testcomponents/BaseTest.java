@@ -27,7 +27,9 @@ public class BaseTest {
     public LandingPage landingPage;
 
     public WebDriver initializeDriver() throws IOException {
-        String browserName = getPropertiesFromFile().getProperty("browser");
+        String browserName = System.getProperty("browser") != null
+                ? System.getProperty("browser")
+                : getPropertiesFromFile().getProperty("browser");
 
         if(browserName.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
