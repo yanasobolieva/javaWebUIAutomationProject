@@ -1,23 +1,21 @@
 package pageobject;
 
-import abstractcomponents.AbstractComponent;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class HeaderPage extends AbstractComponent {
+public class Header {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(css = "[routerlink*='cart']")
-    WebElement cartButton;
+    private WebElement cartButton;
 
     @FindBy(css = "[routerlink*='myorders']")
-    WebElement ordersButton;
+    private WebElement ordersButton;
 
-    public HeaderPage(WebDriver driver){
-        super(driver);
+    public Header(WebDriver driver){
         this.driver = driver;
         PageFactory.initElements(driver, this);
     }

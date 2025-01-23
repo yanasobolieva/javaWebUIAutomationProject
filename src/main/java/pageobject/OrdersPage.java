@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.List;
 
 public class OrdersPage extends AbstractComponent {
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(css = "tr td:nth-child(3)")
     private List<WebElement> productNames;

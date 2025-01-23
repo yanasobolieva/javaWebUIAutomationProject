@@ -13,7 +13,7 @@ public class StepDefinitionImplementation extends BaseTest {
 
     public LandingPage landingPage;
     public ProductCatalogPage productCatalog;
-    public HeaderPage headerPage;
+    public Header header;
     public CartPage cartPage;
     public CheckoutPage checkoutPage;
     public ConfirmationPage confirmationPage;
@@ -36,8 +36,8 @@ public class StepDefinitionImplementation extends BaseTest {
 
     @When("^User checkout (.+)$")
     public void user_checkout_product(String productName){
-        headerPage = new HeaderPage(driver);
-        cartPage = headerPage.goToCartPage();
+        header = new Header(driver);
+        cartPage = header.goToCartPage();
         Boolean match = cartPage.verifyProductDisplayed(productName);
         Assert.assertTrue(match);
         checkoutPage = cartPage.goToCheckout();

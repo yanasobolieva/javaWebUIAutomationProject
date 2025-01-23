@@ -11,15 +11,15 @@ import java.util.List;
 
 public class ProductCatalogPage extends AbstractComponent {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(css = ".mb-3")
-    List<WebElement> products;
+    private List<WebElement> products;
 
-    By productsBy = By.cssSelector(".mb-3");
-    By addToCartButton = By.cssSelector("button:last-of-type");
-    By toastMessage = By.id("toast-container");
-    By spinner = By.className("ng-animating");
+    private By productsBy = By.cssSelector(".mb-3");
+    private By addToCartButton = By.cssSelector("button:last-of-type");
+    private By toastMessage = By.cssSelector("div[role='alert']");
+    private By spinner = By.className("ng-animating");
 
     public ProductCatalogPage(WebDriver driver){
         super(driver);
@@ -45,6 +45,6 @@ public class ProductCatalogPage extends AbstractComponent {
         WebElement prod = getProductsByName(productName);
         prod.findElement(addToCartButton).click();
         waitForElement(toastMessage, true);
-        waitForElement(spinner, false);
+        //waitForElement(spinner, false);
     }
 }

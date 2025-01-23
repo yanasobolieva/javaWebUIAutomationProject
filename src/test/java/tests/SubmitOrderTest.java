@@ -17,8 +17,7 @@ public class SubmitOrderTest extends BaseTest {
         ProductCatalogPage productCatalog = landingPage.loginApplication(testData.get("email"), testData.get("password"));
         productCatalog.addProductToCart(testData.get("productName"));
 
-        HeaderPage headerPage = new HeaderPage(driver);
-        CartPage cartPage = headerPage.goToCartPage();
+        CartPage cartPage = productCatalog.getHeader().goToCartPage();
         Boolean match = cartPage.verifyProductDisplayed(testData.get("productName"));
         Assert.assertTrue(match);
 
@@ -32,8 +31,7 @@ public class SubmitOrderTest extends BaseTest {
     @Test(dependsOnMethods = "submitOrder", dataProvider = "getOrderHistoryData")
     public void orderHistory(HashMap<String,String> testData) {
         ProductCatalogPage productCatalog = landingPage.loginApplication(testData.get("email"), testData.get("password"));
-        HeaderPage headerPage = new HeaderPage(driver);
-        OrdersPage ordersPage = headerPage.goToOrdersPage();
+        OrdersPage ordersPage = productCatalog.getHeader().goToOrdersPage();
         Assert.assertTrue(ordersPage.verifyProductInOrderDisplay(testData.get("productName")));
     }
 

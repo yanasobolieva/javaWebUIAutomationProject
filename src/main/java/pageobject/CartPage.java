@@ -10,10 +10,10 @@ import java.util.List;
 
 public class CartPage extends AbstractComponent {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(css = ".totalRow button")
-    WebElement checkoutButton;
+    private WebElement checkoutButton;
 
     @FindBy(css = ".cartSection h3")
     private List<WebElement> productsInCart;

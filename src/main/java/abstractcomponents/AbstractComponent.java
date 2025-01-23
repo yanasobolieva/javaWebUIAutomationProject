@@ -5,15 +5,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pageobject.Header;
 
 import java.time.Duration;
 
 public class AbstractComponent {
 
-    WebDriver driver;
+    private WebDriver driver;
+    private Header header;
 
     public AbstractComponent(WebDriver driver) {
         this.driver = driver;
+        header = new Header(driver);
+    }
+
+    public Header getHeader(){
+        return header;
     }
 
     public void waitForElement(By findBy, boolean appear) {

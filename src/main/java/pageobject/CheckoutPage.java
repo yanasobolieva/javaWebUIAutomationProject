@@ -10,18 +10,18 @@ import org.openqa.selenium.support.PageFactory;
 
 public class CheckoutPage extends AbstractComponent {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(css = "[placeholder='Select Country']")
-    WebElement countryField;
+    private WebElement countryField;
 
     @FindBy(css = ".ta-item:nth-of-type(1)")
-    WebElement selectCoutry;
+    private WebElement selectCoutry;
 
     @FindBy(css = ".action__submit")
-    WebElement submitButton;
+    private WebElement submitButton;
 
-    By results = By.cssSelector(".ta-results");
+    private By results = By.cssSelector(".ta-results");
 
     public CheckoutPage(WebDriver driver){
         super(driver);

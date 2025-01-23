@@ -8,28 +8,28 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LandingPage extends AbstractComponent {
 
-    WebDriver driver;
+    private WebDriver driver;
 
     @FindBy(id = "userEmail")
-    WebElement emailField;
+    private WebElement emailField;
 
     @FindBy(id = "userPassword")
-    WebElement passwordField;
+    private WebElement passwordField;
 
     @FindBy(id = "login")
-    WebElement loginButton;
+    private WebElement loginButton;
 
     @FindBy(css = "[class*=flyInOut]")
-    WebElement errorToast;
+    private WebElement errorToast;
 
     @FindBy(css = ".forgot-password-link")
-    WebElement forgotPassword;
+    private WebElement forgotPassword;
 
     @FindBy(css = ".text-reset")
-    WebElement registerLink;
+    private WebElement registerLink;
 
     @FindBy(css = "a[routerlink='/auth/register']")
-    WebElement registerButton;
+    private WebElement registerButton;
 
     public LandingPage(WebDriver driver){
         super(driver);
