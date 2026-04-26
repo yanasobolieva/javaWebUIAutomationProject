@@ -6,42 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="ef67b949-8b0f-447d-9c1e-d5fce56f3747" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/abstractcomponents/AbstractComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/CartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/CartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/ConfirmationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/ConfirmationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/ForgotPasswordPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/ForgotPasswordPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/HeaderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/OrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/OrdersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/ProductCatalogPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/ProductCatalogPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/RegisterPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/GlobalData.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/GlobalData.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcomponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcomponents/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcomponents/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcomponents/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginErrorValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginErrorValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SubmitOrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/abstractcomponents/AbstractComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/data/purchaseOrder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/data/purchaseOrder.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageobject/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/CartPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageobject/CheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/CheckoutPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageobject/ConfirmationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/ConfirmationPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageobject/ForgotPasswordPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/ForgotPasswordPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/HeaderPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageobject/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/LandingPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageobject/OrdersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/OrdersPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageobject/ProductCatalogPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/ProductCatalogPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pageobject/RegisterPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/RegisterPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resources/ExtentReporterNG.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/resources/ExtentReporterNG.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/E2E/StandAloneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/E2E/StandAloneTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testcomponents/BaseTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcomponents/BaseTest$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testcomponents/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcomponents/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testcomponents/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcomponents/Listeners.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcomponents/Retry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcomponents/Retry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginErrorValidationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginErrorValidationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SubmitOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SubmitOrderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSuits/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuits/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="38" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,43 +61,49 @@
     &quot;accountId&quot;: &quot;8aab9803-4141-478a-81b5-aaaae3c4ab76&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2rcHdDizQpSc4vgV8kTIXtOgWnz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.StandAloneTest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubmitOrderTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/errorValidationTests.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ErrorValidatrion.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ErrorValidatrion.incorrectCred.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginErrorValidationTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.LoginErrorValidationTest.incorrectCred.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SubmitOrderTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.SubmitOrderTest.orderHistoryTest.executor&quot;: &quot;Debug&quot;,
-    &quot;TestNG.SubmitOrderTest.submitOrder.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;refactorBranch&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.StandAloneTest.executor": "Run",
+    "Application.SubmitOrderTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/errorValidationTests.xml.executor": "Run",
+    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/purchaseTests.xml.executor": "Run",
+    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml.executor": "Run",
+    "TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testng.xml.executor": "Run",
+    "TestNG.D:/IdeaProjects/javaWebUIAutomationProject/testSuits/errorValidationTests.xml.executor": "Run",
+    "TestNG.ErrorValidatrion.executor": "Run",
+    "TestNG.ErrorValidatrion.incorrectCred.executor": "Run",
+    "TestNG.LoginErrorValidationTest.executor": "Run",
+    "TestNG.LoginErrorValidationTest.incorrectCred.executor": "Run",
+    "TestNG.SubmitOrderTest.executor": "Run",
+    "TestNG.SubmitOrderTest.orderHistoryTest.executor": "Debug",
+    "TestNG.SubmitOrderTest.submitOrder.executor": "Run",
+    "git-widget-placeholder": "refactorBranch",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yana.muntianova\IdeaProjects\SeleniumFrameworkDesign\testSuits" />
@@ -116,10 +112,20 @@
       <recent name="C:\Users\yana.muntianova\IdeaProjects\SeleniumFrameworkDesign\testSuits" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml">
+  <component name="RunManager" selected="TestNG.D:/IdeaProjects/javaWebUIAutomationProject/testSuits/errorValidationTests.xml">
     <configuration name="C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumFrameworkDesign" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuits/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/IdeaProjects/javaWebUIAutomationProject/testSuits/errorValidationTests.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumFrameworkDesign" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testSuits/errorValidationTests.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -138,24 +144,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.LoginErrorValidationTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginErrorValidationTest.incorrectCred" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumFrameworkDesign" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.LoginErrorValidationTest" />
-      <option name="METHOD_NAME" value="incorrectCred" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -199,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml" />
+        <item itemvalue="TestNG.D:/IdeaProjects/javaWebUIAutomationProject/testSuits/errorValidationTests.xml" />
         <item itemvalue="TestNG.SubmitOrderTest" />
-        <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
         <item itemvalue="TestNG.LoginErrorValidationTest" />
-        <item itemvalue="TestNG.LoginErrorValidationTest.incorrectCred" />
+        <item itemvalue="TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml" />
+        <item itemvalue="TestNG.SubmitOrderTest.submitOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -217,5 +205,9 @@
       <updated>1736851529841</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
