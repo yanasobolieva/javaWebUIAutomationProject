@@ -39,7 +39,7 @@ public class Listeners extends BaseTest implements ITestListener {
     public void onTestFailure(ITestResult result) {
         extentTest.get().fail(result.getThrowable());
 
-        File screenshot = ((TakesScreenshot) WebDriverHolder.getInstance().getDriver()).getScreenshotAs(OutputType.FILE);
+        File screenshot = ((TakesScreenshot) WebDriverHolder.getDriver()).getScreenshotAs(OutputType.FILE);
         File file = new File(
                 System.getProperty("user.dir") + "\\" + PropertiesReader.getInstance().getProperty("screenshotFolder"),
                 result.getName() + "_" + new Date().getTime() + ".png"

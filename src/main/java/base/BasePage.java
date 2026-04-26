@@ -19,7 +19,7 @@ public class BasePage {
     private WebElement logoutButton;
 
     public BasePage() {
-        PageFactory.initElements(WebDriverHolder.getInstance().getDriver(), this);
+        PageFactory.initElements(WebDriverHolder.getDriver(), this);
         header = new Header();
     }
 
@@ -28,7 +28,7 @@ public class BasePage {
     }
 
     public void waitForElement(By findBy, boolean appear) {
-        WebDriverWait wait = new WebDriverWait(WebDriverHolder.getInstance().getDriver(), Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(WebDriverHolder.getDriver(), Duration.ofSeconds(10));
         if(appear){
             wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
         } else {
@@ -37,7 +37,7 @@ public class BasePage {
     }
 
     public void waitForElement(WebElement element, boolean appear) {
-        WebDriverWait wait = new WebDriverWait(WebDriverHolder.getInstance().getDriver(), Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(WebDriverHolder.getDriver(), Duration.ofSeconds(10));
         if(appear){
             wait.until(ExpectedConditions.visibilityOf(element));
         } else {

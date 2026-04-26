@@ -11,25 +11,35 @@ import utils.PropertiesReader;
 import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
-import java.time.Duration;
 import java.util.*;
 
 public class BaseTest {
-    public LandingPage landingPage;
+    private final ThreadLocal<LandingPage> landingPage = new ThreadLocal<>();
 
     @BeforeMethod(alwaysRun = true)
-    public void beforeMethod() throws IOException, InterruptedException {
+    public void beforeMethod() throws IOException {
+        WebDriverHolder.initDriver();
         goToUrl();
-        landingPage = new LandingPage();
+        landingPage.set(new LandingPage());
     }
 
-    @AfterSuite(alwaysRun = true)
-    public void afterSuite(){
-        WebDriverHolder.getInstance().killDriver();
+    @AfterMethod(alwaysRun = true)
+    public void afterMethod() {
+        landingPage.remove();
+        WebDriverHolder.killDriver();
     }
+
+    protected LandingPage landingPage() {
+        LandingPage page = landingPage.get();
+        if (page == null) {
+            throw new IllegalStateException("LandingPage is not initialized for current thread.");
+        }
+        return page;
+    }
+
 
     public void goToUrl(String url){
-        WebDriverHolder.getInstance().getDriver().get(url);
+        WebDriverHolder.getDriver().get(url);
     }
 
     public void goToUrl() throws IOException {

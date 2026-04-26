@@ -14,7 +14,7 @@ public class Header {
     private WebElement ordersButton;
 
     public Header(){
-        PageFactory.initElements(WebDriverHolder.getInstance().getDriver(), this);
+        PageFactory.initElements(WebDriverHolder.getDriver(), this);
     }
 
     public CartPage goToCartPage(){

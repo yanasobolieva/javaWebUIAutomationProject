@@ -14,7 +14,7 @@ public class SubmitOrderTest extends BaseTest {
 
     @Test(dataProvider = "getSubmitOrderData", groups = {"Purchase"})
     public void submitOrder(HashMap<String,String> testData) throws IOException {
-        ProductCatalogPage productCatalog = landingPage.loginApplication(testData.get("email"), testData.get("password"));
+        ProductCatalogPage productCatalog = landingPage().loginApplication(testData.get("email"), testData.get("password"));
         productCatalog.addProductToCart(testData.get("productName"));
 
         CartPage cartPage = productCatalog.getHeader().goToCartPage();
@@ -31,7 +31,7 @@ public class SubmitOrderTest extends BaseTest {
 
     @Test(dependsOnMethods = "submitOrder", dataProvider = "getOrderHistoryData")
     public void orderHistory(HashMap<String,String> testData) {
-        ProductCatalogPage productCatalog = landingPage.loginApplication(testData.get("email"), testData.get("password"));
+        ProductCatalogPage productCatalog = landingPage().loginApplication(testData.get("email"), testData.get("password"));
         OrdersPage ordersPage = productCatalog.getHeader().goToOrdersPage();
         Assert.assertTrue(ordersPage.verifyProductInOrderDisplay(testData.get("productName")));
         ordersPage.logout();
@@ -39,7 +39,7 @@ public class SubmitOrderTest extends BaseTest {
 
     @DataProvider
     public Object[][] getSubmitOrderData() throws IOException {
-        List<HashMap<String,String>> testData = getJsonDataToMap("//src//test//java//data//purchaseOrder.json");
+        List<HashMap<String,String>> testData = getJsonDataToMap("//src//test//java//resources//data//purchaseOrder.json");
         return new Object[][] {{testData.get(0)}, {testData.get(1)}};
     }
 
@@ -48,7 +48,7 @@ public class SubmitOrderTest extends BaseTest {
         HashMap<String,String> testData = new HashMap<String, String>();
         testData.put("email", "yibiv465523@chosenx.com");
         testData.put("password", "cg6G@bficYJi6U4");
-        testData.put("productName", "QWERTY");
+        testData.put("productName", "ZARA COAT 3");
         return new Object[][]{{testData}};
     }
 }

@@ -25,7 +25,7 @@ public class CheckoutPage extends BasePage {
     }
 
     public void selectCoutry(String countryName){
-        Actions act = new Actions(WebDriverHolder.getInstance().getDriver());
+        Actions act = new Actions(WebDriverHolder.getDriver());
         act.sendKeys(countryField, countryName).build().perform();
         waitForElement(results,true);
         selectCoutry.click();
