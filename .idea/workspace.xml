@@ -4,28 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef67b949-8b0f-447d-9c1e-d5fce56f3747" name="Changes" comment="Fixed project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/driver/WebDriverHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/driver/WebDriverHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/CheckoutPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/CheckoutPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageobject/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageobject/Header.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/data/purchaseOrder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/data/purchaseOrder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcomponents/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcomponents/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testcomponents/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcomponents/Listeners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginErrorValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginErrorValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SubmitOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SubmitOrderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/driver/WebDriverHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/driver/WebDriverHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/CheckoutPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/CheckoutPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageobject/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageobject/Header.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcomponents/BaseTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcomponents/BaseTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcomponents/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcomponents/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testcomponents/Listeners.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcomponents/Listeners.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginErrorValidationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginErrorValidationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/SubmitOrderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/SubmitOrderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSuits/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSuits/testng.xml" afterDir="false" />
+    <list default="true" id="ef67b949-8b0f-447d-9c1e-d5fce56f3747" name="Changes" comment="Added multithread support">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,9 +171,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/yana.muntianova/IdeaProjects/SeleniumFrameworkDesign/testSuits/testng.xml" />
-        <item itemvalue="TestNG.SubmitOrderTest.orderHistory" />
         <item itemvalue="TestNG.SubmitOrderTest" />
         <item itemvalue="TestNG.LoginErrorValidationTest" />
+        <item itemvalue="TestNG.SubmitOrderTest.orderHistory" />
         <item itemvalue="TestNG.D:/IdeaProjects/javaWebUIAutomationProject/testSuits/errorValidationTests.xml" />
       </list>
     </recent_temporary>
@@ -231,12 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1777196165520</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added multithread support">
+      <option name="closed" value="true" />
+      <created>1777202039748</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777202039748</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed project" />
+    <MESSAGE value="Added multithread support" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added multithread support" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
